@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# This does not have responsive yet
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
