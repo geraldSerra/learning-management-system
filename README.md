@@ -1,4 +1,7 @@
-# Version 2.0
+##Pending
+ - Dedicated layout for mobile version
+
+## Version 2.0
 
 - Responsive with all breakpoints: xs, sm, md, lg, xl
 - Layouts added
