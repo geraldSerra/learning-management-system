@@ -1,0 +1,35 @@
+.swiper-wrapper {
+  width: 100%;
+  height: 250px !important;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: black;
+}
+
+.slider{
+    width: 100%;
+}
+
+/* .swiper-button-prev,
+.swiper-button-next {
+  max-width: 30px !important;
+  max-height: 30px !important;
+  background-color: green;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  max-width: 30px !important;
+  max-height: 30px !important;
+  background-color: green;
+} */
+
+/* .swiper-button-prev {
+  margin-right: 100%;
+}
+
+.swiper-button-next {
+  margin-right: 0px;
+} */

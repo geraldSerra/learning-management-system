@@ -1,4 +1,44 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  --primary-color: #ff204e;
+  --secundary-color: #52d3d8;
+  --base-color: #fff;
+  --hover-color: #ff204d25;
+  --background-color: #white;
+  --selected-color: #bbe2ec;
+  --outline-color: #b5b5b5;
+  --gray: #7d7d7d;
+  --padding-section: 0 1rem 0 1rem;
+  --max-width-body: 1200px;
+}
+
+.css-2xpyxx-MuiCardContent-root:last-child {
+  padding-bottom: 0px !important;
+}
+
+/*Scroll bar*/
+
+body::-webkit-scrollbar {
+  width: 8px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  max-height: 300px !important;
+}
+
+/*icons*/
+.MuiSvgIcon-root {
+  font-size: 25px !important;
+}

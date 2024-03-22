@@ -1,0 +1,30 @@
+.sub-bar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  height: 5rem;
+  padding: 0 2rem 0 2rem;
+}
+
+.sub-bar-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7rem;
+  height: 2rem;
+  border: solid 1px var(--outline-color);
+  border-radius: 1rem;
+  margin: 20px;
+  margin-left: 0;
+  cursor: pointer;
+}
+
+.sub-bar-option:hover {
+  background-color: bisque;
+}
+
+.sub-bar-option-selected {
+  font-weight: 400;
+  border: solid 3px var(--outline-color);
+}
