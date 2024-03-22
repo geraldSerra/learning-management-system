@@ -1,4 +1,4 @@
-##Pending
+## Pending
  - Dedicated layout for mobile version
 
 ## Version 2.0
