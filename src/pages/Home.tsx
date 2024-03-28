@@ -32,7 +32,7 @@ const HomeSmall = () => {
         <Grid
           container
           xs={12}
-          rowSpacing={"15px"}
+          rowSpacing={"12px"}
           sx={{ mb: "5rem", mt: "1rem" }}
         >
           <Grid xs={12}>
