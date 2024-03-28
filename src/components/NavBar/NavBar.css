@@ -24,6 +24,10 @@
 
 /*xs*/
 @media screen and (max-width: 599px) {
+  .navbar-container {
+    border-bottom: none;
+  }
+
   .navbar {
     justify-content: space-between;
     height: 3.5rem;
