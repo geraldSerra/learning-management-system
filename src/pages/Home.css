@@ -1,4 +1,7 @@
 .home {
-  padding: var(--padding-section);
-  margin-top: 10rem;
+  color: var(--font-color);
+}
+
+.item-on-display{
+  padding: var(--padding);
 }

@@ -1,8 +1,13 @@
 .course-card-layout {
   padding: var(--padding-section);
+  background-color: black;
 }
 .slidercard-layout {
   padding: var(--padding-section);
+}
+
+.layout {
+  background-color: var(--base-color);
 }
 
 .course-card-layout,

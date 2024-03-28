@@ -3,8 +3,9 @@
   flex-direction: column;
   height: 100vh;
   gap: 0.25rem;
-  background-color: white;
   padding: 0.5rem 0.5rem 0.5rem 0;
+  background-color: var(--base-color);
+  color: var(--font-color);
 }
 
 .sidebar-option-container {

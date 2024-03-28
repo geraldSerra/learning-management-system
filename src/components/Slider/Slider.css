@@ -1,6 +1,5 @@
-.swiper-wrapper {
-  width: 100%;
-  height: 250px !important;
+.swiper {
+  padding: var(--padding) !important;
 }
 
 .swiper-button-prev:hover,
@@ -8,8 +7,13 @@
   color: black;
 }
 
-.slider{
-    width: 100%;
+.slider {
+  width: 100%;
+}
+
+.swiper-slide {
+  width: fit-content !important;
+  height: fit-content !important;
 }
 
 /* .swiper-button-prev,

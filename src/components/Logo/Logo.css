@@ -10,3 +10,10 @@
   width: 8rem;
   height: auto;
 }
+
+@media screen and (max-width: 599px) {
+  .logo-img {
+    width: 5rem;
+    height: auto;
+  }
+}

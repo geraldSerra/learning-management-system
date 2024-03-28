@@ -8,7 +8,7 @@
   width: 100%;
   height: 5rem;
   border-radius: 15px 15px 0px 0px;
-  border-top: 2px solid var(--outline-color);
+  border-top: 1px solid var(--outline-color);
   background-color: var(--base-color);
 }
 
@@ -46,13 +46,18 @@
 
 .small-tag-label {
   font-size: 12;
-  font-weight: 500;
   color: var(--gray);
 }
 
 .small-tag-label-selected {
   font-weight: 600;
   color: var(--primary-color);
+}
+
+@media screen and (max-width: 599px) {
+  .small-nav {
+    height: 4.5rem;
+  }
 }
 
 @keyframes icon {

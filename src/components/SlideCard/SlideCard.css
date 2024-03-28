@@ -15,7 +15,7 @@
 
 .slidercard:hover {
   border-radius: 50px 50px 30px 30px;
-  background-color: #d9f7f7;
+  background-color: var(--hover-color);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 6px 20px;
 }
 
@@ -39,5 +39,5 @@
 
 .slidercard-subtext {
   font-size: 12px;
-  color: var(--gray);
+  color: var(--font-color-secundary);
 }

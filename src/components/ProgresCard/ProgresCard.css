@@ -1,0 +1,40 @@
+.progres-card {
+  display: flex;
+  align-items: center;
+  width: 16rem;
+  padding: 0.6rem;
+  background-color: var(--secundary-color);
+  border-radius: 10px;
+}
+
+.progres-img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+
+.progres-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.progres-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.progres-value {
+  font-weight: var(--font-weight);
+  color: var(--primary-color);
+}
+
+.progres-title {
+  font-weight: var(--font-weight);
+}

@@ -4,7 +4,7 @@ import { CourseCard, Title } from "components";
 
 const CourseCardLayout = ({ data }: any) => {
   return (
-    <div className="course-card-layout">
+    <div className="layout course-card-layout">
       <Grid container spacing={2}>
         <Grid xs={12}>
           <Title>Earn a Degree</Title>
@@ -23,7 +23,7 @@ const CourseCardLayout = ({ data }: any) => {
                 }}
               >
                 <CourseCard
-                  image={item.image}
+                  img={item.img}
                   title={item.title}
                   certification={item.certification}
                 />

@@ -1,21 +1,45 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-tap-highlight-color: transparent;
 }
 
 :root {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  --primary-color: #ff204e;
-  --secundary-color: #52d3d8;
+  --font-family: "Roboto", sans-serif;
+  --font-weight: 500;
+  --font-color: #000;
+  --primary-color: #0db5a0;
+  --secundary-color: #e9f1fc;
   --base-color: #fff;
-  --hover-color: #ff204d25;
-  --background-color: #white;
+  --hover-color: #00000010;
   --selected-color: #bbe2ec;
   --outline-color: #b5b5b5;
-  --gray: #7d7d7d;
+  --font-color-secundary: #7d7d7d;
   --padding-section: 0 1rem 0 1rem;
   --max-width-body: 1200px;
+  --xs-border-radius: 10px;
+  --padding: 0 20px 0 20px;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: 14px;
+  background-color: var(--base-color);
+}
+
+.MuiGrid-root {
+  background-color: var(--base-color);
+}
+
+.dark-mode {
+  --font-color: #fff;
+  --primary-color: #ff204e;
+  --secundary-color: #52d3d8;
+  --base-color: #00224d;
+  --hover-color: #ffffff15;
+  --selected-color: #bbe2ec;
+  --outline-color: #40587c;
+  --font-color-secundary: #c3c9d0;
 }
 
 .css-2xpyxx-MuiCardContent-root:last-child {
@@ -41,4 +65,10 @@ body::-webkit-scrollbar-thumb {
 /*icons*/
 .MuiSvgIcon-root {
   font-size: 25px !important;
+}
+
+@media screen and (max-width: 599px) {
+  body {
+    font-size: 14px;
+  }
 }

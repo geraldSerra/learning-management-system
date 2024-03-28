@@ -8,38 +8,61 @@ import webOptimizationImg from "../assets/course-web-optimization.jpg";
 
 export const courses = [
   {
-    image: reactImg,
+    img: reactImg,
     title: "Avanced React",
     certification: "Course",
+    enrolled: false,
+    progres: 0,
   },
   {
-    image: htmlCssImg,
+    img: htmlCssImg,
     title: "HTML and CSS Fundamentals",
     certification: "Course",
+    enrolled: false,
+    progres: 0,
   },
   {
-    image: jsImg,
+    img: jsImg,
     title: "Modern JavaScript: ES6+",
     certification: "Course",
+    enrolled: false,
+    progres: 0,
   },
   {
-    image: bootstrapImg,
+    img: bootstrapImg,
     title: "Responsive Design and Bootstrap",
     certification: "Course",
+    enrolled: true,
+    progres: 82,
   },
   {
-    image: webOptimizationImg,
+    img: webOptimizationImg,
     title: "Web Performance Optimization",
     certification: "Course",
+    enrolled: true,
+    progres: 25,
   },
   {
-    image: reduxImg,
+    img: reduxImg,
     title: "State Management with Redux",
     certification: "Course",
+    enrolled: true,
+    progres: 52,
   },
   {
-    image: pwaImg,
+    img: pwaImg,
     title: "Progressive Web Development",
     certification: "Course",
+    enrolled: false,
+    progres: 0,
   },
+];
+
+export const categories = [
+  { label: "Fronted", color: "#7BD3EA" },
+  { label: "Data base", color: "#FFC0D9" },
+  { label: "Linux", color: "#BEADFA" },
+  { label: "Data science", color: "#FAF2A8" },
+  { label: "Algorithm", color: "#8EA7E9" },
+  { label: "Backend", color: "#BFD8AF" },
 ];

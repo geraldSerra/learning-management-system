@@ -1,0 +1,22 @@
+.category-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 3rem;
+  width: fit-content;
+  background-color: orange;
+  padding: 0 0.8rem;
+  border-radius: 2rem 10px 10px 2rem;
+}
+
+.category-hole {
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 1rem;
+  background-color: #ffffffa0;
+}
+
+.category-title {
+  font-weight: var(--font-weight);
+  padding: 0 1rem;
+}
