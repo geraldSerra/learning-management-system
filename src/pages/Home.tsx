@@ -42,6 +42,18 @@ const HomeSmall = () => {
           </Grid>
           <Grid xs={12}>
             <div className="item-on-display">
+              <Title>Categories</Title>
+            </div>
+          </Grid>
+          <Grid xs={12}>
+            <Slider>
+              {categories.map((item) => (
+                <CategoryCard label={item.label} color={item.color} />
+              ))}
+            </Slider>
+          </Grid>
+          <Grid xs={12}>
+            <div className="item-on-display">
               <Title>Earn a Degree</Title>
             </div>
           </Grid>
@@ -77,26 +89,13 @@ const HomeSmall = () => {
 
           <Grid xs={12}>
             <div className="item-on-display">
-              <Title>Categories</Title>
-            </div>
-          </Grid>
-          <Grid xs={12}>
-            <Slider>
-              {categories.map((item) => (
-                <CategoryCard label={item.label} color={item.color} />
-              ))}
-            </Slider>
-          </Grid>
-
-          <Grid xs={12}>
-            <div className="item-on-display">
               <Title>For you</Title>
             </div>
           </Grid>
 
           <Grid xs={12}>
             <div className="item-on-display">
-              <Box sx={{ height: "14rem" }}>
+              <Box sx={{ height: "16rem" }}>
                 <CourseCard
                   img={courses[5].img}
                   title={courses[5].title}

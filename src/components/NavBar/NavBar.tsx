@@ -51,19 +51,22 @@ const NavBar = () => {
         <Stack
           direction={"row"}
           alignItems={"center"}
-          sx={{ gap: { xs: 0, sm: 2 } }}
+          spacing={0}
+          sx={{ gap: { xs: 0, sm: 2 }, with: "fit-content" }}
         >
           <IconButton
             sx={{
               display: { md: "none" },
+              pr: 0,
+              pl: 1,
             }}
           >
             <SearchIcon />
           </IconButton>
-          <IconButton>
+          <IconButton sx={{ pr: 0, pl: 1.5 }}>
             <NotificationsNoneOutlinedIcon />
           </IconButton>
-          <IconButton>
+          <IconButton sx={{ pr: 0, pl: 1.5 }}>
             <LightModeOutlinedIcon />
           </IconButton>
 
