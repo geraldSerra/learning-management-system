@@ -9,6 +9,7 @@ import Logo from "./Logo/Logo";
 import Greetings from "./Greetings/Greetings";
 import ProgresCard from "./ProgresCard/ProgresCard";
 import CategoryCard from "./CategoryCard/CategoryCard";
+import LearningPathsCard from "./LearningPathsCard/LearningPathsCard";
 
 export {
   CourseCard,
@@ -21,5 +22,6 @@ export {
   Logo,
   Greetings,
   ProgresCard,
-  CategoryCard
+  CategoryCard,
+  LearningPathsCard,
 };

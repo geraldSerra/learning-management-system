@@ -1,0 +1,39 @@
+.learning-paths-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  background-color: var(--secundary-color);
+  padding: 1rem 2rem;
+  border-radius: 10px 70px 320px 10px;
+}
+
+.path-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  height: 2.5rem;
+  padding: 0 1rem;
+  border-radius: 10px;
+  font-weight: var(--font-weight);
+  color: white;
+  background-color: var(--primary-color);
+  transition: all 0.3s;
+}
+
+.path-card-1 {
+  width: 85%;
+}
+
+.path-card-2 {
+  width: 85%;
+}
+
+.path-card-3 {
+  width: 85%;
+}
+
+.path-card:hover{
+    width: 100%;
+}

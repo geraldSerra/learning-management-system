@@ -4,6 +4,7 @@ import {
   CategoryCard,
   CourseCard,
   Greetings,
+  LearningPathsCard,
   Logo,
   NavBar,
   ProgresCard,
@@ -102,6 +103,34 @@ const HomeSmall = () => {
                   certification={courses[5].certification}
                 />
               </Box>
+            </div>
+          </Grid>
+          <Grid xs={12}>
+            <div className="item-on-display">
+              <Title>Popular courses</Title>
+            </div>
+          </Grid>
+          <Grid xs={12}>
+            <Slider>
+              {courses.map((item) => (
+                <Box sx={{ width: "16rem", height: "12rem" }}>
+                  <CourseCard
+                    img={item.img}
+                    title={item.title}
+                    certification={item.certification}
+                  />
+                </Box>
+              ))}
+            </Slider>
+          </Grid>
+          <Grid xs={12}>
+            <div className="item-on-display">
+              <Title>Explore Paths</Title>
+            </div>
+          </Grid>
+          <Grid xs={12}>
+            <div className="item-on-display">
+              <LearningPathsCard />
             </div>
           </Grid>
         </Grid>
